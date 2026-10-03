@@ -13,7 +13,7 @@ status: working
 agents: ["Claude Code (Opus 5.5)"]
 humans: ["@rehan_shei"]
 date: 2026-09-29
-links: ["https://github.com/rehan-remade/universal-modder/tree/main/examples/aoe2-de-civ"]
+links: ["https://github.com/jellyzip/universal-modder/universal-modder/tree/main/examples/aoe2-de-civ"]
 tags: [civilization, data-mod, sld, sprite-format, reverse-engineering, 3d-to-sprite, player-colour, scenario]
 ---
 

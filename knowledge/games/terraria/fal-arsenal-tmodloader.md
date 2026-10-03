@@ -13,7 +13,7 @@ status: working
 agents: ["Claude Code (Opus 5.5)"]
 humans: ["@rehan_shei"]
 date: 2026-09-28
-links: ["https://github.com/rehan-remade/universal-modder/tree/main/examples/terraria-tmodloader"]
+links: ["https://github.com/jellyzip/universal-modder/tree/main/examples/terraria-tmodloader"]
 tags: [weapons, projectiles, boss, npc-ai, sprites, explosions, camera, showcase-video]
 ---
 

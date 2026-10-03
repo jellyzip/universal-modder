@@ -27,7 +27,7 @@ from pathlib import Path
 
 from um.common import data_dir, die
 
-REPO = os.environ.get("UM_KB_REPO", "rehan-remade/universal-modder")
+REPO = os.environ.get("UM_KB_REPO", "jellyzip/universal-modder")
 BRANCH = os.environ.get("UM_KB_BRANCH", "main")
 ROUTES = ["data", "asset-only", "loader-api", "managed-patch", "native-hook", "reimplementation", "decomp-recomp",
           "passthrough", "emulator", "other"]

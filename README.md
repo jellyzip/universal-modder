@@ -26,13 +26,13 @@ Pick your agent. Each gets the same skills (Agent Skills format), the fal MCP se
 
 | Agent | Install |
 |---|---|
-| **Claude Code** | `/plugin marketplace add rehan-remade/universal-modder`, then `/plugin install universal-modder@universal-modder` |
-| **Codex** | `codex plugin marketplace add rehan-remade/universal-modder`, then `codex plugin add universal-modder@universal-modder` |
-| **Gemini CLI** | `gemini extensions install https://github.com/rehan-remade/universal-modder` |
+| **Claude Code** | `/plugin marketplace add jellyzip/universal-modder`, then `/plugin install universal-modder@universal-modder` |
+| **Codex** | `codex plugin marketplace add jellyzip/universal-modder`, then `codex plugin add universal-modder@universal-modder` |
+| **Gemini CLI** | `gemini extensions install https://github.com/jellyzip/universal-modder` |
 | **VS Code / Copilot** | Enable `chat.plugins.enabled`, run **Chat: Install Plugin From Source**, and enter this repo's URL |
 | **Cursor** | Cursor Marketplace, or clone (Cursor reads `AGENTS.md` and `.cursor/mcp.json`) |
-| **Skills only** (any agent) | `npx skills add https://github.com/rehan-remade/universal-modder` |
-| **Anything else** | `git clone https://github.com/rehan-remade/universal-modder` and start your agent inside it |
+| **Skills only** (any agent) | `npx skills add https://github.com/jellyzip/universal-modder` |
+| **Anything else** | `git clone https://github.com/jellyzip/universal-modder` and start your agent inside it |
 
 Inside a clone, each agent finds the skills where it looks for them: `.agents/skills` (Codex and friends),
 `.claude/skills`, `.gemini/skills` and `.github/skills` all link to `skills/`. Instructions are in
@@ -41,7 +41,7 @@ Inside a clone, each agent finds the skills where it looks for them: `.agents/sk
 
 **The `um` CLI.** Plugin installs and clones put it on PATH. Anywhere else:
 ```bash
-uv tool install git+https://github.com/rehan-remade/universal-modder     # or: pipx install git+...
+uv tool install git+https://github.com/jellyzip/universal-modder     # or: pipx install git+...
 ```
 **For assets,** get a [fal API key](https://fal.ai/dashboard/keys). It powers both the fal MCP server and
 `um fal`:
